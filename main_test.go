@@ -17,7 +17,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/cfmobile/levolib"
+	"github.com/emir-hasanbegovic/levolib"
 	"io/ioutil"
 	"os"
 	"reflect"

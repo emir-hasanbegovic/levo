@@ -21,7 +21,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/cfmobile/levolib"
+	"github.com/emir-hasanbegovic/levolib"
 	"io/ioutil"
 	"os"
 	"regexp"

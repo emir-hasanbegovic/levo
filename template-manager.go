@@ -18,7 +18,7 @@ import (
 	"code.google.com/p/go.tools/go/vcs"
 	"errors"
 	"fmt"
-	"github.com/cfmobile/levolib"
+	"github.com/emir-hasanbegovic/levolib"
 	"os"
 	"os/user"
 	"strings"

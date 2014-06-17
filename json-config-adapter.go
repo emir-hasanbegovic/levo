@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/cfmobile/levolib"
+	"github.com/emir-hasanbegovic/levolib"
 	"io/ioutil"
 )
 

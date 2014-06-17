@@ -16,7 +16,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/cfmobile/levolib"
+	"github.com/emir-hasanbegovic/levolib"
 	"reflect"
 	"testing"
 )

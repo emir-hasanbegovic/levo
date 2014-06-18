@@ -129,6 +129,7 @@ func (self *JSONConfigAdapter) addModelsToContext(modelSchema levo.Schema) error
 			return err
 		}
 		model.Parent = modelFromSchema.Parent
+		model.LiasonType = modelFromSchema.LiasonType
 		for _, propertyFromSchema := range modelFromSchema.Properties {
 			if propertyFromSchema.LocalIdentifier == "" {
 				propertyFromSchema.LocalIdentifier = propertyFromSchema.RemoteIdentifier
@@ -138,7 +139,7 @@ func (self *JSONConfigAdapter) addModelsToContext(modelSchema levo.Schema) error
 				return err
 			}
 		}
-	}
+	}	
 
 	for _, model := range self.context.Schema.Models {
 		if model.Parent != "" {
